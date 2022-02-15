@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resource/bootstrap-4.5.0/css/bootstrap.css">
+    <link rel="stylesheet" href="./resource/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./resource/style/style.css">
+</head>
+<body>
+    <div class="loading">
+        <div class="loading__item"></div>
+        <div class="loading__text">
+            loading...
+        </div>
+    </div>
+    <header class="header" id="top">
+        <div class="header__box">
+            <div class="logo">
+                <img src="./resource/img/logo.png" alt="logo" title="logo" class="logo__img">
+            </div>
+            
+            <nav class="pc header__menu">
+                <ul class="header__ul" style="margin: 0;">
+                    <li class="header__li"><a href="./index.html" class="header__a">홈</a></li>
+                    <li class="header__li"><a href="./intro.html" class="header__a">소개</a></li>
+                    <li class="header__li header__li--sub">
+                        <a href="#" class="header__a">빵집</a>
+                        <ul class="header__sub-ul">
+                            <li class="header__sub-li"><a href="#" class="header__a">빵집리스트</a></li>
+                            <li class="header__sub-li"><a href="#" class="header__a">빵집추천</a></li>
+                            <li class="header__sub-li"><a href="#" class="header__a">빵집 검색</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__li header__li--sub">
+                        <a href="#" class="header__a">이벤트</a>
+                        <ul class="header__sub-ul">
+                            <li class="header__sub-li"><a href="#" class="header__a">이벤트 리스트</a></li>
+                            <li class="header__sub-li"><a href="#" class="header__a">이벤트 등록</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__li"><a href="#" class="header__a">광고관리</a></li>
+                </ul>
+            </nav>
+            
+            <div class="pc header__etc">
+                <button class="btn header__login">로그인</button>
+                <button class="btn header__register">회원가입</button>
+            </div>
+            
+            <div class="mobile mobile__header">
+                <input type="checkbox" name="hamberger" id="hamberger" hidden>
+
+                <label class="mobile__hamberger" for="hamberger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <div class="mobile__menu">
+                    <label for="hamberger" class="mobile__label">
+
+                    </label>
+                    <ul class="mobile__ul">
+                        <li class="mobile__li"><a href="./index.html">홈</a></li>
+                        <li class="mobile__li"><a href="./intro.html">소개</a></li>
+                        <li class="mobile__li">
+                            <details>
+                                <summary><a href="#">빵집</a></summary>
+                                <ul class="detail__ul">
+                                    <li class="detail__li"><a href="#">빵집리스트</a></li>
+                                    <li class="detail__li"><a href="#">빵집추천</a></li>
+                                    <li class="detail__li"><a href="#">빵집 검색</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="mobile__li">
+                            <details>
+                                <summary><a href="#">이벤트</a></summary>
+                                <ul class="detail__ul">
+                                    <li class="detail__li"><a href="#">이벤트 리스트</a></li>
+                                    <li class="detail__li"><a href="#">이벤트 등록</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="mobile__li"><a href="#">광고관리</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="title-image">
+            <img src="./resource/img/titleImg/9.png" class="title-image__img" alt="title-img" title="title-img">
+            <div class="title-image__cover">
+                <h1>빵집 추천</h1>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>
+            한밭 빵지순례 빵끝 | Daejeon Boulangerie<br>
+            LOCATION: 대전광역시 중구 문화1동 165 | TEL: 042-580-9100
+        </p>
+        <p>Copyrightⓒ 2021, Daejeon Boulangerie all right reserved</p>
+    </footer>
+</body>
+</html>

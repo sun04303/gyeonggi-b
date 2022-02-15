@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resource/bootstrap-4.5.0/css/bootstrap.css">
+    <link rel="stylesheet" href="./resource/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./resource/style/style.css">
+</head>
+<body>
+    <div class="loading">
+        <div class="loading__item"></div>
+        <div class="loading__text">
+            loading...
+        </div>
+    </div>
+    <header class="header" id="top">
+        <div class="header__box">
+            <div class="logo">
+                <img src="./resource/img/logo.png" alt="logo" title="logo" class="logo__img">
+            </div>
+            
+            <nav class="pc header__menu">
+                <ul class="header__ul" style="margin: 0;">
+                    <li class="header__li"><a href="./index.html" class="header__a">홈</a></li>
+                    <li class="header__li"><a href="./intro.html" class="header__a">소개</a></li>
+                    <li class="header__li header__li--sub">
+                        <a href="#" class="header__a">빵집</a>
+                        <ul class="header__sub-ul">
+                            <li class="header__sub-li"><a href="#" class="header__a">빵집리스트</a></li>
+                            <li class="header__sub-li"><a href="#" class="header__a">빵집추천</a></li>
+                            <li class="header__sub-li"><a href="#" class="header__a">빵집 검색</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__li header__li--sub">
+                        <a href="#" class="header__a">이벤트</a>
+                        <ul class="header__sub-ul">
+                            <li class="header__sub-li"><a href="#" class="header__a">이벤트 리스트</a></li>
+                            <li class="header__sub-li"><a href="#" class="header__a">이벤트 등록</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__li"><a href="#" class="header__a">광고관리</a></li>
+                </ul>
+            </nav>
+            
+            <div class="pc header__etc">
+                <button class="btn header__login">로그인</button>
+                <button class="btn header__register">회원가입</button>
+            </div>
+            
+            <div class="mobile mobile__header">
+                <input type="checkbox" name="hamberger" id="hamberger" hidden>
+
+                <label class="mobile__hamberger" for="hamberger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <div class="mobile__menu">
+                    <label for="hamberger" class="mobile__label">
+
+                    </label>
+                    <ul class="mobile__ul">
+                        <li class="mobile__li"><a href="./index.html">홈</a></li>
+                        <li class="mobile__li"><a href="./intro.html">소개</a></li>
+                        <li class="mobile__li">
+                            <details>
+                                <summary><a href="#">빵집</a></summary>
+                                <ul class="detail__ul">
+                                    <li class="detail__li"><a href="#">빵집리스트</a></li>
+                                    <li class="detail__li"><a href="#">빵집추천</a></li>
+                                    <li class="detail__li"><a href="#">빵집 검색</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="mobile__li">
+                            <details>
+                                <summary><a href="#">이벤트</a></summary>
+                                <ul class="detail__ul">
+                                    <li class="detail__li"><a href="#">이벤트 리스트</a></li>
+                                    <li class="detail__li"><a href="#">이벤트 등록</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="mobile__li"><a href="#">광고관리</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="view">
+            <div class="view__box">
+                <div>
+                    <img src="./resource/img/view/1.jpg" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/3.jpg" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/05.png" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/6.jpg" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/8.jpg" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/12.jpg" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/15.jpg" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/20.jpg" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/21.png" alt="view_img" class="view__img">
+                </div>
+                <div>
+                    <img src="./resource/img/view/25.jpg" alt="view_img" class="view__img">
+                </div>
+                <div class="mobile">
+                    <img src="./resource/img/view/26.jpg" alt="view_img" class="view__img">
+                </div>
+                <div class="mobile">
+                    <img src="./resource/img/view/30.jpg" alt="view_img" class="view__img">
+                </div>
+            </div>
+            <div class="view__cover">
+                임시 텍스트<br>
+                임시 텍스트 임시 텍스트
+            </div>
+        </div>
+
+        <div class="ad">
+            <img src="./resource/img/add/24.png" alt="ad-img" title="ad-img" class="ad__img">
+        </div>
+
+        <div class="today container">
+            <div class="today__box">
+                <div class="today__item">
+                    <h2 class="title"><span class="line"></span> 오늘의 빵집</h2>
+                    <hr>
+                    <p>매일매일 새로운 오늘의 인기 빵집을 만나보세요!</p>
+                    <button class="btn-cus">더보기</button>
+                </div>
+                <div class="today__item">
+                    <img src="./resource/img/store/14.jpg" alt="store-img" title="store-img">
+                    <div class="today__info">
+                        <h4>성심당 본점</h4>
+                        <p>임시 텍스트</p>
+                        <button class="btn-cus">자세히 보기</button>
+                    </div>
+                </div>
+                <div class="today__item">
+                    <img src="./resource/img/store/17.png" alt="store-img" title="store-img">
+                    <div class="today__info">
+                        <h4>하레하레</h4>
+                        <p>임시 텍스트</p>
+                        <button class="btn-cus">자세히 보기</button>
+                    </div>
+                </div>
+                <div class="today__item">
+                    <img src="./resource/img/store/18.png" alt="store-img" title="store-img">
+                    <div class="today__info">
+                        <h4>콜마르브레드</h4>
+                        <p>임시 텍스트</p>
+                        <button class="btn-cus">자세히 보기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="best-menu">
+            <div class="best-menu__box container">
+                <div class="best-menu__item mobile" style="flex-direction: column;">
+                    <h2 class="title"><span class="line"></span> 베스트 메뉴</h2>
+                    <hr>
+                    <p>가장 많이 찾는 최고의 메뉴를 만나보세요</p>
+                    <button class="btn-cus">더보기</button>
+                </div>
+                <div class="best-menu__item">
+                    <img src="./resource/img/menu/12.png" alt="best-menu-img" title="best-menu-img">
+                    <div class="best-menu__info">
+                        <h5>깜빠뉴트레디션</h5>
+                        <span>10,000￦</span>
+                        <p>임시 텍스트</p>
+                        <button class="btn-cus">자세히 보기</button>
+                    </div>
+                </div>
+                <div class="best-menu__item">
+                    <img src="./resource/img/menu/14.png" alt="best-menu-img" title="best-menu-img">
+                    <div class="best-menu__info">
+                        <h5>누룩발효빵</h5>
+                        <span>2,800￦</span>
+                        <p>임시 텍스트</p>
+                        <button class="btn-cus">자세히 보기</button>
+                    </div>
+                </div>
+                <div class="best-menu__item">
+                    <img src="./resource/img/menu/25.jpg" alt="best-menu-img" title="best-menu-img">
+                    <div class="best-menu__info">
+                        <h5>천연효모 크랜베리<br>치아바타</h5>
+                        <span>4,000￦</span>
+                        <p>임시 텍스트</p>
+                        <button class="btn-cus">자세히 보기</button>
+                    </div>
+                </div>
+                <div class="best-menu__item">
+                    <img src="./resource/img/menu/34.jpg" alt="best-menu-img" title="best-menu-img">
+                    <div class="best-menu__info">
+                        <h5>치즈바게뜨</h5>
+                        <span>9,200￦</span>
+                        <p>임시 텍스트</p>
+                        <button class="btn-cus">자세히 보기</button>
+                    </div>
+                </div>
+                <div class="best-menu__item pc">
+                    <h2 class="title"><span class="line"></span> 베스트 메뉴</h2>
+                    <hr>
+                    <p>가장 많이 찾는 최고의 메뉴를 만나보세요</p>
+                    <button class="btn-cus">더보기</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="event container my-5">
+            <h2 class="title"><span class="line"></span> 진행 중인 이벤트</h2>
+            <hr>
+            <div class="event__box">
+                <div class="event__item">
+                    <img src="./resource/img/event/16(1).png" alt="event-img" title="event-img">
+                </div>
+                <div class="event__item">
+                    <img src="./resource/img/event/37.png" alt="event-img" title="event-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="best-review container">
+            <h2 class="title"><span class="line"></span> 베스트 리뷰</h2>
+            <hr>
+            <div class="best-review__box">
+                <div class="card best-review__item" style="width: 22.5rem;">
+                    <img src="./resource/img/review/27.jpg" class="card-img-top" alt="review-image" title="review-image">
+                    <div class="card-body">
+                        <h6>마늘바게트 </h6>
+                        <h5 class="card-title">슬로우브레드 </h5>
+                        <span class="best-review__good-info">
+                            <i class="fas fa-heart good red"></i>
+                            <span>100</span>
+                        </span>
+                        <p class="card-text">어제 구매했는데 오늘까지도 빵이 바삭바삭해요, 이번만이 아니라 다음 방문때도 또 구매하고 싶은 빵이었던거 같아요!</p>
+                        <a href="#" class="btn btn-primary">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="card best-review__item" style="width: 22.5rem;">
+                    <img src="./resource/img/review/14.png" class="card-img-top" alt="review-image" title="review-image">
+                    <div class="card-body">
+                        <h6>누룩발효빵</h6>
+                        <h5 class="card-title">라프레즈</h5>
+                        <span class="best-review__good-info">
+                            <i class="fas fa-heart good"></i>
+                            <span>1,004</span>
+                        </span>
+                        <p class="card-text">먹고나면 든든하고 무엇보다 빵이 넘 맛있어요.씹는 맛도 좋고 씹을수록 고소해요</p>
+                        <a href="#" class="btn btn-primary">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="card best-review__item" style="width: 22.5rem;">
+                    <img src="./resource/img/review/25.jpg" class="card-img-top" alt="review-image" title="review-image">
+                    <div class="card-body">
+                        <h6>천연효모 크랜베리치아바타</h6>
+                        <h5 class="card-title">마인츠돔</h5>
+                        <span class="best-review__good-info">
+                            <i class="fas fa-heart good"></i>
+                            <span>90</span>
+                        </span>
+                        <p class="card-text">적당한 가격에 맛도 괜찮은 빵이 많아서 자주 방문하게 되네요! 내일은 다른 걸 먹어봐야겠어요.</p>
+                        <a href="#" class="btn btn-primary">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-cus">더 보기</button>
+        </div>
+
+        <a href="#top" class="top-button">
+            <i class="fas fa-arrow-up"></i>
+            <span>top</span>
+        </a>
+    </section>
+
+    <footer class="footer">
+        <p>
+            한밭 빵지순례 빵끝 | Daejeon Boulangerie<br>
+            LOCATION: 대전광역시 중구 문화1동 165 | TEL: 042-580-9100
+        </p>
+        <p>Copyrightⓒ 2021, Daejeon Boulangerie all right reserved</p>
+    </footer>
+</body>
+</html>
