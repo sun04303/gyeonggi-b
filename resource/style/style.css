@@ -675,3 +675,35 @@ ul {
     width: 100%;
     margin: 10px 0;
 }
+
+/* 빵집 추천 */
+
+.area {
+    display: flex;
+    flex-direction: column;
+}
+
+.area__box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.area__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.area__item img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+.area-btn-del {
+    display: none;
+}
+
+.next-page {
+    align-self: flex-end;   
+}
