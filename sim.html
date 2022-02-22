@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./resource/js/jquery-3.5.1.js"></script>
+    <script src="./resource/bootstrap-4.5.0/js/bootstrap.js"></script>
     <link rel="stylesheet" href="./resource/bootstrap-4.5.0/css/bootstrap.css">
     <link rel="stylesheet" href="./resource/fontawesome/css/all.css">
     <link rel="stylesheet" href="./resource/style/style.css">
@@ -87,44 +88,53 @@
         </div>
     </header>
 
-    <section>
+    <section class="sim-store-list">
         <div class="title-image">
-            <img src="./resource/img/titleImg/9.png" class="title-image__img" alt="title-img" title="title-img">
+            <img src="./resource/img/titleImg/21.jpeg" class="title-image__img" alt="title-img" title="title-img">
             <div class="title-image__cover">
-                <h1>빵집 추천</h1>
+                <h1>유사한 빵집 리스트</h1>
             </div>
         </div>
 
-        <div class="sug container my-5">
-            <div class="area">
-                <h2 class="title"><span class="line"></span> 지역 선택</h2>
-                <hr>
-    
-                <div class="area__box">
-                    
-                </div>
-    
-                <button class="next-page mt-5 btn btn-primary" disabled>다음 페이지 <i class="fas fa-arrow-right"></i></button>
+        <div class="container my-5">
+            <div class="sim-store-list__target my-5 row">
+                
             </div>
 
-            <div class="shop-list">
-                <h2 class="title"><span class="line"></span> 추천 리스트</h2>
-                <hr>
+            <h2 class="title"><span class="line"></span> 목록</h2>
+            <hr>
 
-                <div class="sort-type mb-5 mt-3">
-                    
+            <div class="sim-store-list__rank">
+
+            </div>
+
+            <div class="sim-store-list__box">
+                
+            </div>
+        </div>
+
+        <div class="modal fade" id="more" tabindex="-1" aria-labelledby="moreLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="moreLabel">상세정보</h5>
+                    </div>
+                    <div class="modal-body">
+                        
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="shop__box">
-                    <!-- <div class="card shop__item" style="width: 18rem;">
-                        <img src="./resource/img/shop/1.jpg" class="card-img-top" alt="shop-img" title="shop-img">
-                        <div class="card-body">
-                            <h5 class="card-title">슬로우브레드</h5>
-                            <p class="card-text">07:30 ~ 22:00</p>
-                            <p class="card-text">고객분들의 신뢰성을 잃는다면 그것은 바로 빵을 만들 자격이 없다는 뜻입니다. 저희는 그 신뢰성을 배신하지 않도록 항상 노력합니다.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div> -->
+        <div class="modal fade" id="menu" tabindex="-1" aria-labelledby="menuLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="menuLabel">메뉴</h5>
+                    </div>
+                    <div class="modal-body">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -137,7 +147,6 @@
         </p>
         <p>Copyrightⓒ 2021, Daejeon Boulangerie all right reserved</p>
     </footer>
-
-    <script src="./resource/js/sug.js"></script>
+    <script src="./resource/js/sim.js"></script>
 </body>
 </html>

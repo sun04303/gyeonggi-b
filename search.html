@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./resource/js/jquery-3.5.1.js"></script>
+    <script src="./resource/bootstrap-4.5.0/js/bootstrap.js"></script>
     <link rel="stylesheet" href="./resource/bootstrap-4.5.0/css/bootstrap.css">
     <link rel="stylesheet" href="./resource/fontawesome/css/all.css">
     <link rel="stylesheet" href="./resource/style/style.css">
@@ -87,45 +88,35 @@
         </div>
     </header>
 
-    <section>
+    <section class="sim-store-list">
         <div class="title-image">
-            <img src="./resource/img/titleImg/9.png" class="title-image__img" alt="title-img" title="title-img">
+            <img src="./resource/img/titleImg/08.png" class="title-image__img" alt="title-img" title="title-img">
             <div class="title-image__cover">
-                <h1>빵집 추천</h1>
+                <h1>빵집 검색</h1>
             </div>
         </div>
 
-        <div class="sug container my-5">
-            <div class="area">
-                <h2 class="title"><span class="line"></span> 지역 선택</h2>
-                <hr>
-    
-                <div class="area__box">
-                    
+        <div class="search container">
+            <div class="search-bar row">
+                <div class="col">
+                    <input type="text" name="search-name" autocomplete="off" id="search-name" class="form-control mt-5 mb-3" placeholder="검색어를 입력하세요. (빵집 이름)">
                 </div>
-    
-                <button class="next-page mt-5 btn btn-primary" disabled>다음 페이지 <i class="fas fa-arrow-right"></i></button>
+                <div class="col">
+                    <input type="text" name="search-time" autocomplete="off" id="search-time" class="form-control mt-5 mb-3" placeholder="검색어를 입력하세요. (영업 시간, 00:00 형식)">
+                </div>
             </div>
+            
+            <div class="hash-tag-box">
+                
+            </div>
+            
+            <h3 class="title mt-5"><span class="line"></span>목록</h3>
+            <hr>
 
-            <div class="shop-list">
-                <h2 class="title"><span class="line"></span> 추천 리스트</h2>
-                <hr>
+            <p class="search__cnt">검색 결과 0건</p>
 
-                <div class="sort-type mb-5 mt-3">
-                    
-                </div>
+            <div class="search__result mb-5">
 
-                <div class="shop__box">
-                    <!-- <div class="card shop__item" style="width: 18rem;">
-                        <img src="./resource/img/shop/1.jpg" class="card-img-top" alt="shop-img" title="shop-img">
-                        <div class="card-body">
-                            <h5 class="card-title">슬로우브레드</h5>
-                            <p class="card-text">07:30 ~ 22:00</p>
-                            <p class="card-text">고객분들의 신뢰성을 잃는다면 그것은 바로 빵을 만들 자격이 없다는 뜻입니다. 저희는 그 신뢰성을 배신하지 않도록 항상 노력합니다.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div> -->
-                </div>
             </div>
         </div>
     </section>
@@ -137,7 +128,6 @@
         </p>
         <p>Copyrightⓒ 2021, Daejeon Boulangerie all right reserved</p>
     </footer>
-
-    <script src="./resource/js/sug.js"></script>
+    <script src="./resource/js/search.js"></script>
 </body>
 </html>
